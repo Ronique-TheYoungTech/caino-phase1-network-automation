@@ -35,14 +35,7 @@ conf t
 hostname R1
 end
 
-R3
-conf t
-hostname R3
-end
 
-🛠 Step 2 — Configure Serial Interfaces
-
-R1 – Serial0/3/0
 
 
 
