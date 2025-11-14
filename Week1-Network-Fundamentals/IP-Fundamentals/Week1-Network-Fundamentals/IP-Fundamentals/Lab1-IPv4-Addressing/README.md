@@ -81,6 +81,21 @@ interface loopback30
 end
 ```
 
+## 🔍 Step 4 — Verification
+
+After configuring hostnames, serial interfaces, and loopbacks, verify the IPv4 configuration and interface statuses using the following commands.
+
+
+## ✅ 4.1 — Verify All Interface IP Addresses
+
+Run on R3: 
+```bash
+show ip interface brief
+```
+
+
+
+
 
 
 
