@@ -44,6 +44,16 @@ hostname R3
 end
 ```
 
+🛠 Step 2 — Configure Serial Interfaces
+
+R1 – Serial0/3/0
+conf t
+interface se0/3/0
+ ip address 172.16.1.1 255.255.255.192
+ clock rate 800000! 
+ no shutdown
+end
+
 
 
 
