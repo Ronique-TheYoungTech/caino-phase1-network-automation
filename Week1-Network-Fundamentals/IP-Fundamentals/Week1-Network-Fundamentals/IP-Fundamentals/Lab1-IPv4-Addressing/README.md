@@ -148,6 +148,54 @@ show run | section interface s
 ```
 Re-enter the correct mask.
 
+3. Loopback interface does not appear “up”
+
+Cause: Mis-typed interface number or IP
+Fix:
+```bash
+conf t
+interface loopbackXX
+ ip address X.X.X.X MASK
+```
+4. Cannot ping between routers
+
+Cause:
+	•	Interface shutdown
+	•	Wrong IP
+	•	Wrong serial interface number
+
+Fix:
+Check:
+```bash
+show ip interface brief
+```
+5. Wrong interface numbering (Packet Tracer vs real routers)
+
+Cause: Different HWIC slot used
+Packet Tracer uses:
+	•	Serial0/3/0
+	•	Serial0/3/1
+
+instead of Serial0/0.
+
+Fix:
+Adjust commands to match the actual interface names shown in Packet Tracer.
+
+## 📘 Step 6 — What I Learned
+
+This lab helped reinforce several key IPv4 engineering concepts:
+	•	How to configure IPv4 addresses on Cisco routers
+	•	How Packet Tracer maps serial interfaces differently (0/0 vs 0/3/0)
+	•	How to correctly apply subnet masks and interface IP addresses
+	•	How to activate interfaces using no shutdown
+	•	How to verify configurations using:
+	•	show ip interface brief
+	•	show interface SERIAL
+	•	show controllers serial
+	•	How to troubleshoot Layer-1 and Layer-2 issues on serial links
+	•	How to document labs professionally for GitHub, including code blocks + screenshots
+	•	How to structure a lab report recruiters can easily read and understand
+
 
 
 
