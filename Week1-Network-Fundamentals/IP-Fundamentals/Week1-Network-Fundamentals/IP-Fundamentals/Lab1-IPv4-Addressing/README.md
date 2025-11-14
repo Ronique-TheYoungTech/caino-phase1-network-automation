@@ -119,6 +119,35 @@ show controllers serial 0/3/0
 ```
 ![show controllers serial](screenshots/lab1-show-controllers-serial.png)
 
+## 🧩 Step 5 — Troubleshooting
+
+Below are common issues encountered in IPv4 interface configuration and how to resolve them.
+
+1. Serial interface shows “down/down”
+
+Cause: No clock rate applied on the DCE side
+Fix:
+```bash
+show controllers serial 0/3/0
+conf t
+interface se0/3/0
+ clock rate 800000
+ no shutdown
+```
+2. Serial interface shows “up/down” (line protocol down)
+
+Cause:
+	•	Incorrect subnet mask
+	•	Mismatched IP addressing
+	•	Wrong cable orientation
+
+Fix:
+Verify addressing on both routers:
+```bash
+show run | section interface s
+```
+Re-enter the correct mask.
+
 
 
 
