@@ -182,7 +182,7 @@ Fix:
 Adjust commands to match the actual interface names shown in Packet Tracer.
 
 ## 📘 Step 6 — What I Learned
-![Lab 1 Topology Complete](screenshots/lap1-topology-complete.png)
+![Lab 1 Topology Complete](screenshots/lab1-topology-complete.png)
 This lab helped reinforce several key IPv4 engineering concepts:
 	•	How to configure IPv4 addresses on Cisco routers
 	•	How Packet Tracer maps serial interfaces differently (0/0 vs 0/3/0)
