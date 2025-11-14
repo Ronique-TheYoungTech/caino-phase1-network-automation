@@ -35,6 +35,9 @@ conf t
 hostname R1
 end
 
+### *R3*
+```bash
+
 
 
 
