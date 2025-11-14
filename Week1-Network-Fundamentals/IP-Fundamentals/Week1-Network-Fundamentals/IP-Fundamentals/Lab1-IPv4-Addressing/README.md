@@ -66,6 +66,7 @@ interface se0/3/1
  no shutdown
 end
 ```
+## 🛠 Step 3 — Configure Loopback Interfaces (R3)
 
 
 
