@@ -45,7 +45,7 @@ end
 ```
 
 🛠 Step 2 — Configure Serial Interfaces
-
+![R1 Serial Configuration](screenshots/R1-serial-config.png)
 R1 – Serial0/3/0
 ```bash
 conf t
