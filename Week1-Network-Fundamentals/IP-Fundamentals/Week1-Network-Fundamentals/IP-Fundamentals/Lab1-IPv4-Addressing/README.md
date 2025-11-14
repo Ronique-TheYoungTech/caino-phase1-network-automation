@@ -92,6 +92,22 @@ Run on R3:
 ```bash
 show ip interface brief
 ```
+![show ip interface brief](screenshots/lab1-show-ip-int-brief.png)
+
+## ✅ 4.2 — Verify Serial Interface Details (R1 or R3)
+
+This command shows:
+	•	Line protocol status
+	•	Encapsulation (HDLC)
+	•	Interface speed
+	•	IP address + mask
+	•	DCE/DTE role (if applicable)
+
+Run on R1 or R3:
+```bash
+show interface se0/3/0
+```
+
 
 
 
