@@ -30,6 +30,7 @@ All interface mappings use the Cisco 2901 platform with HWIC-2T modules, which r
 ## 🛠 Step 1 — Configure Hostnames
 
 ### *R1*
+![R1 Hostname Configuration](screenshots/lab1-hostname-config.png)
 ```bash
 conf t
 hostname R1
