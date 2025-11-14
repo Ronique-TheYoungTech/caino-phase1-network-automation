@@ -56,8 +56,9 @@ interface se0/3/0
  no shutdown
 end
 ```
-![R3 Serial Config](screenshots/R3-serial-config.png)
 ### *R3* - *Serial0/3/1*
+![R3 Serial Config](screenshots/R3-serial-config.png)
+
 ```bash
 conf t
 interface se0/3/1
