@@ -117,6 +117,9 @@ Run:
 ```bash
 show controllers serial 0/3/0
 ```
+![show controllers serial](screenshots/lab1-show-controllers-serial.png)
+
+
 
 
 
