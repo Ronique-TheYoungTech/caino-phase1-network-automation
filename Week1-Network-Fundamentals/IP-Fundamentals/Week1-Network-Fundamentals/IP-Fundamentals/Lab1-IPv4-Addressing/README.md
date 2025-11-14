@@ -67,6 +67,19 @@ interface se0/3/1
 end
 ```
 ## 🛠 Step 3 — Configure Loopback Interfaces (R3)
+![R3 Loopback Configuration](screenshots/R3-loopback-config.png)
+```bash
+conf t
+interface loopback10
+ ip address 10.10.10.3 255.255.255.128
+
+interface loopback20
+ ip address 10.20.20.3 255.255.255.224
+
+interface loopback30
+ ip address 10.30.30.3 255.255.255.248
+end
+```
 
 
 
