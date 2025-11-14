@@ -37,6 +37,12 @@ hostname R1
 end
 ```
 ### *R3*
+![R1 Hostname Configuration](screenshots/R3-hostname-config.png)
+```bash
+conf t
+hostname R3
+end
+```
 
 
 
