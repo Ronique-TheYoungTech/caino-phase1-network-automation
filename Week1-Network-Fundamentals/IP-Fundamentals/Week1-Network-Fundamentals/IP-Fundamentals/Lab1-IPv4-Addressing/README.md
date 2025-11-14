@@ -44,9 +44,10 @@ hostname R3
 end
 ```
 
-🛠 Step 2 — Configure Serial Interfaces
+## 🛠 Step 2 — Configure Serial Interfaces
+### *R1 – Serial0/3/0*
 ![R1 Serial Configuration](screenshots/R1-serial-config.png)
-R1 – Serial0/3/0
+
 ```bash
 conf t
 interface se0/3/0
