@@ -107,6 +107,17 @@ Run on R1 or R3:
 ```bash
 show interface se0/3/0
 ```
+![show interface serial](screenshots/lab1-show-interface-se030.png)
+
+## ✅ 4.3 — Optional: Check DCE/DTE End
+
+This confirms which router needs the clock rate.
+
+Run:
+```bash
+show controllers serial 0/3/0
+```
+
 
 
 
