@@ -34,9 +34,9 @@ All interface mappings use the Cisco 2901 platform with HWIC-2T modules, which r
 conf t
 hostname R1
 end
-
+```
 ### *R3*
-```bash
+
 
 
 
