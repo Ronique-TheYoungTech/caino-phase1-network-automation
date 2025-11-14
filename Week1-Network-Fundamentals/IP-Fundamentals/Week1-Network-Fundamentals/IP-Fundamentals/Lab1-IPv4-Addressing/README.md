@@ -45,7 +45,7 @@ end
 ```
 
 ## 🛠 Step 2 — Configure Serial Interfaces
-### *R1 – Serial0/3/0*
+### *R1* – *Serial0/3/0*
 ![R1 Serial Configuration](screenshots/R1-serial-config.png)
 
 ```bash
@@ -57,7 +57,7 @@ interface se0/3/0
 end
 ```
 ![R3 Serial Config](screenshots/R3-serial-config.png)
-R3 - Serial0/3/1
+### *R3* - *Serial0/3/1*
 ```bash
 conf t
 interface se0/3/1
