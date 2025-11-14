@@ -55,6 +55,16 @@ interface se0/3/0
  no shutdown
 end
 ```
+![R3 Serial Config](screenshots/R3-serial-config.png)
+R3 - Serial0/3/1
+```bash
+conf t
+interface se0/3/1
+ ip address 172.16.1.2 255.255.255.192
+ no shutdown
+end
+```
+
 
 
 
