@@ -30,6 +30,24 @@ Upload your topology screenshot to the `screenshots` folder, then update the fil
 
 ![Topology Diagram](screenshots/lab2-topology.png)
 
+---
+
+# 🔧 Step 3 — Configure IPv6 on Serial Interfaces
+
+### R1 — Serial0/3/0
+```bash
+interface se0/3/0
+ ipv6 address 2001:ABCD:ABCD:1::1/64
+ no shutdown
+```
+
+### R3 - Serial0/3/1
+```bash
+interface se0/3/1
+ ipv6 address 2001:ABCD:ABCD:2::2/64
+ no shutdown
+```
+
 
 
 
