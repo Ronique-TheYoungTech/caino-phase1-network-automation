@@ -76,6 +76,12 @@ show ipv6 interface brief
 ```bash
 show ipv6 interface g0/1
 ```
+### R3 Running Configuration  
+![R3 Running Config](./lab03-screenshots/r3-running-config.png)
+```bash
+show running-config
+```
+
 
 ### R3 Loopback0 EUI-64 IPv6 Address  
 ![R3 Loopback0 EUI-64](./lab03-screenshots/r3-loopback0-eui64.png)
