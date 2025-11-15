@@ -80,7 +80,7 @@ After configuring IPv6, verify the interfaces, addresses, and operational status
 
 ## ✅ 1. IPv6 Interface Summary
 
-Use this command to verify IPv6 addresses on all interfaces.
+I used this command to verify IPv6 addresses on all interfaces.
 
 ```bash
 show ipv6 interface brief
