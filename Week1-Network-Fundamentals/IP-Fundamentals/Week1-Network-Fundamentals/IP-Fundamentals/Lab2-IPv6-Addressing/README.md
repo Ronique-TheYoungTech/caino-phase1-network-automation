@@ -70,6 +70,32 @@ interface loopback0
  ipv6 address 2001::5/64
 ```
 
+---
+
+# 🔍 Step 5 — Verification Commands
+
+After configuring IPv6, verify the interfaces, addresses, and operational status using the commands below.
+
+---
+
+## ✅ 1. IPv6 Interface Summary
+
+Use this command to verify IPv6 addresses on all interfaces.
+
+```bash
+show ipv6 interface brief
+```
+
+## R1 - Serial0/3/0
+
+```bash
+show ipv6 interface se0/3/0
+```
+
+## R3 - Serial0/3/1
+```bash
+show ipv6 interface se0/3/1
+```
 
 
 
