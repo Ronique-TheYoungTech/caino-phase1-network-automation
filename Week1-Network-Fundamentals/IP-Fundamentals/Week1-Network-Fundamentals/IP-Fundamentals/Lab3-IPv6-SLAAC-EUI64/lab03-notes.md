@@ -89,4 +89,7 @@ show running-config
 show ipv6 interface loopback0
 ```
 
+### Lab 3 Topology  
+![Lab 3 Topology](./lab03-screenshots/lab3-topology.png)
+
 
