@@ -35,19 +35,38 @@ Upload your topology screenshot to the `screenshots` folder, then update the fil
 # 🔧 Step 3 — Configure IPv6 on Serial Interfaces
 
 ### R1 — Serial0/3/0
+![R1 IPv6 Serial Config](./screenshots/r1-ipv6-serial-config.png)
+
 ```bash
 interface se0/3/0
  ipv6 address 2001:ABCD:ABCD:1::1/64
  no shutdown
 ```
 
+
 ### R3 - Serial0/3/1
+![R3 IPv6 Serial Config](./screenshots/r3-ipv6-serial-config.png)
+
 ```bash
 interface se0/3/1
  ipv6 address 2001:ABCD:ABCD:2::2/64
  no shutdown
 ```
 
+---
+
+# 🔧 Step 4 — Configure IPv6 on Loopback Interfaces
+
+### R1 — Loopback0
+```bash
+interface loopback0
+ ipv6 address 2001::5/64
+```
+### R3 - Loopback0
+```bash
+interface loopback0
+ ipv6 address 2001::5/64
+```
 
 
 
