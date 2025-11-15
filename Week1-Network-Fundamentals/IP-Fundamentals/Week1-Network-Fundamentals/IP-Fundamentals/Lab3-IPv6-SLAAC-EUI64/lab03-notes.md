@@ -59,10 +59,24 @@ end
 wr
 ```
 ### 🔍 Verification Commands
+### IPv6 Interface Brief (R3)
+![IPv6 Interface Brief](../lab03-screenshots/ipv6-interface-brief.png)
 ```bash
 show ipv6 interface brief
+```
+### R3 G0/1 IPv6 Interface Details
+![R3 G0/1 Details](../lab03-screenshots/r3-g0-1-ipv6-details.png)
+```bash
 show ipv6 interface g0/1
+```
+### R3 Loopback0 EUI-64 IPv6 Address
+![R3 Loopback0 EUI-64](../lab03-screenshots/r3-loopback0-eui64.png)
+```bash
 show ipv6 interface loopback0
+```
+### R3 Running Configuration
+![R3 Running Config](../lab03-screenshots/r3-running-config.png)
+```bash
 show running-config
 ```
 
