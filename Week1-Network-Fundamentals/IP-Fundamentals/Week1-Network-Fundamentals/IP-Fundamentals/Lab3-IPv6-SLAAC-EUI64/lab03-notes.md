@@ -30,7 +30,7 @@ Configure EUI-64 addressing on R3 Loopback0 and verify IPv6 address generation.
 ## 🛠 Configuration  
 
 ### 🔵 R1 Configuration  
-
+![R1 IPv6 Config](./lab03-screenshots/r1-ipv6-config.png)
 ```bash
 conf t
 hostname R1
@@ -44,6 +44,7 @@ wr
 ```
 
 ### 🔵 R3 Configuration
+![R3 IPv6 Config](./lab03-screenshots/r3-ipv6-config.png)
 ```bash
 conf t
 hostname R3
