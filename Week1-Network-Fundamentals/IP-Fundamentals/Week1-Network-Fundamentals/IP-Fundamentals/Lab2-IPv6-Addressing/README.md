@@ -58,11 +58,13 @@ interface se0/3/1
 # 🔧 Step 4 — Configure IPv6 on Loopback Interfaces
 
 ### R1 — Loopback0
+![R1 IPv6 Loopback Config](./screenshots/r1-loopback-ipv6.png)
 ```bash
 interface loopback0
  ipv6 address 2001::5/64
 ```
 ### R3 - Loopback0
+![R3 IPv6 Loopback Config](./screenshots/r3-loopback-ipv6.png)
 ```bash
 interface loopback0
  ipv6 address 2001::5/64
