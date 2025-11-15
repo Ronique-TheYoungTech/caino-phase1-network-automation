@@ -87,12 +87,14 @@ show ipv6 interface brief
 ```
 
 ## R1 - Serial0/3/0
-
+![R1 show ipv6 interface brief](./screenshots/r1-show-ipv6-int-brief.png)
 ```bash
 show ipv6 interface se0/3/0
 ```
 
 ## R3 - Serial0/3/1
+![R3 show ipv6 interface brief](./screenshots/r3-show-ipv6-int-brief.png)
+
 ```bash
 show ipv6 interface se0/3/1
 ```
