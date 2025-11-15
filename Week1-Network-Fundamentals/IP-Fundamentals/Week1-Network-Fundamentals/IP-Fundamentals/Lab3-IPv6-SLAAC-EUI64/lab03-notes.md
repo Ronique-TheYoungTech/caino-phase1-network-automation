@@ -81,9 +81,5 @@ show ipv6 interface g0/1
 ```bash
 show ipv6 interface loopback0
 ```
-### R3 Running Configuration  
-![R3 Running Config](./lab03-screenshots/r3-running-config.png)
-```bash
-show running-config
-```
+
 
